@@ -1,0 +1,22 @@
+﻿<Window
+    x:Class="winui_mvvm_custom_service.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:winui_mvvm_custom_service"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxc="using:DevExpress.WinUI.Core"
+    xmlns:dxg="using:DevExpress.WinUI.Grid"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel VerticalAlignment="Top">
+            <Button Content="Lock" Command="{x:Bind ViewModel.LockUpdatesCommand}"/>
+            <Button Content="Unlock" Command="{x:Bind ViewModel.UnlockUpdatesCommand}"/>
+        </StackPanel>
+        <dxg:GridControl ItemsSource="{x:Bind ViewModel.Customers}" AutoGenerateColumns="True" Margin="0,90,0,0">
+            <dxc:Interaction.Behaviors>
+                <local:GridUpdateService ServiceClient="{x:Bind ViewModel}"/>
+            </dxc:Interaction.Behaviors>
+        </dxg:GridControl>
+    </Grid>
+</Window>
