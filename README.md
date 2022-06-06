@@ -9,34 +9,24 @@ A repository template for creating new examples.
 
 # Product/Platform - Task
 
-The description in a free form.
+Each service is a @DevExpress.WinUI.Core.UIServiceBase`1 class descendant. The `T` parameter defines the associated control type. 
 
-Resulting image (if necessary).
-
-Implementation details: steps, code snippets, and other technical information in a free form.
+The [UIServiceBase&gt;T*lt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.UIServiceBase-1?v=22.1) class contains the [AssociatedObject](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior.AssociatedObject?v=22.1) property. DevExpress MVVM Framework specifies this property when you add a service to the [Behaviors](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Interaction.Behaviors?v=22.1) collection. 
 
 <!-- default file list -->
 
 ## Files to Look At
 
-- link.cs (VB: link.vb)
-- link.js
-- ...
-
+- [MainWindow.xaml](./CS/winui-mvvm-custom-service/winui-mvvm-custom-service/MainWindow.xaml)
+- [MainWindow.xaml.cs](./CS/winui-mvvm-custom-service/winui-mvvm-custom-service/MainWindow.xaml.cs)
+- [MainViewModel.cs](./CS/winui-mvvm-custom-service/winui-mvvm-custom-service/ViewModel.cs)
 <!-- default file list end --> 
-
-<!-- 
 
 ## Documentation
 
-- link
-- link
-- ...
+- [WinUI MVVM Framework](https://docs.devexpress.com/WinUI/102569/mvvm-framework?v=22.1)
+- [WinUI MVVM UI Services](https://docs.devexpress.com/WinUI/402940/mvvm/services?v=22.1)
 
 ## More Examples
 
-- link
-- link
-- ...
-
--->
+- [WinUI MVVM Service - Create a Custom Behavior](https://github.com/DevExpress-Examples/winui-mvvm-custom-behavior)
