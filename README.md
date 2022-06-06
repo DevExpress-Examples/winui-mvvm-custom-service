@@ -9,9 +9,9 @@ A repository template for creating new examples.
 
 # Product/Platform - Task
 
-Each service is a @DevExpress.WinUI.Core.UIServiceBase`1 class descendant. The `T` parameter defines the associated control type. 
+Each service is a [UIServiceBase&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.UIServiceBase-1?v=22.1) class descendant. The `T` parameter defines the associated control type. 
 
-The [UIServiceBase&gt;T*lt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.UIServiceBase-1?v=22.1) class contains the [AssociatedObject](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior.AssociatedObject?v=22.1) property. DevExpress MVVM Framework specifies this property when you add a service to the [Behaviors](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Interaction.Behaviors?v=22.1) collection. 
+The [UIServiceBase&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.UIServiceBase-1?v=22.1) class contains the [AssociatedObject](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Behavior.AssociatedObject?v=22.1) property. DevExpress MVVM Framework specifies this property when you add a service to the [Behaviors](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.Interaction.Behaviors?v=22.1) collection. 
 
 <!-- default file list -->
 
