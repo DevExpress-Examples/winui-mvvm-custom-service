@@ -7,7 +7,7 @@
 A repository template for creating new examples.
 -->
 
-# Product/Platform - Task
+# WPF MVVM Behaviors - Create a Custom UI Service
 
 Each service is a [UIServiceBase&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.Core.UIServiceBase-1?v=22.1) class descendant. The `T` parameter defines the associated control type. 
 
