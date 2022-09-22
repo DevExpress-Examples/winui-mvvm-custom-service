@@ -17,9 +17,9 @@ The [UIServiceBase&lt;T&gt;](https://docs.devexpress.com/WinUI/DevExpress.WinUI.
 
 ## Files to Look At
 
-- [MainWindow.xaml](./CS/winui-mvvm-custom-service/winui-mvvm-custom-service/MainWindow.xaml)
-- [MainWindow.xaml.cs](./CS/winui-mvvm-custom-service/winui-mvvm-custom-service/MainWindow.xaml.cs)
-- [MainViewModel.cs](./CS/winui-mvvm-custom-service/winui-mvvm-custom-service/ViewModel.cs)
+- [MainWindow.xaml](./CS/winui_mvvm_custom_service/winui_mvvm_custom_service/MainWindow.xaml)
+- [MainWindow.xaml.cs](./CS/winui_mvvm_custom_service/winui_mvvm_custom_service/MainWindow.xaml.cs)
+- [MainViewModel.cs](./CS/winui_mvvm_custom_service/winui_mvvm_custom_service/ViewModel.cs)
 <!-- default file list end --> 
 
 ## Documentation
